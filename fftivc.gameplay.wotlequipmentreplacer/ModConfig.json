@@ -1,0 +1,76 @@
+{
+  "ModId": "fftivc.gameplay.wotlequipmentreplacer",
+  "ModName": "The War of the Lions Equipment Replacer",
+  "ModAuthor": "Zodiark",
+  "ModVersion": "0.9.0",
+  "ModDescription": "Replaces rarely utilized equipment with the coveted \u0022Tynar Rouge,\u0022 \u0022Ras Algethi,\u0022 \u0022Balmung,\u0022 \u0022Orochi,\u0022 \u0022Crown Sceptre,\u0022 \u0022Chaosbringer,\u0022 \u0022Reverie Shield,\u0022 \u0022Brass Coronet,\u0022 \u0022Grand Armor,\u0022 \u0022Mirage Vest,\u0022 and \u0022Onion Gloves\u0022 featured exclusively in \u0022The War of the Lions.\u0022",
+  "ModDll": "",
+  "ModIcon": "preview.png",
+  "ModR2RManagedDll32": "",
+  "ModR2RManagedDll64": "",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "Tags": [],
+  "CanUnload": null,
+  "HasExports": null,
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "fftivc.gameplay.wotlequipmentreplacer.ReleaseMetadata.json",
+  "IgnoreRegexes": [
+    ".*\\.json",
+    "fftivc\\.gameplay\\.wotlequipmentreplacer\\.nuspec"
+  ],
+  "IncludeRegexes": [
+    "\\.deps\\.json",
+    "\\.runtimeconfig\\.json",
+    "ModConfig\\.json",
+    "ModConfig\\.json"
+  ],
+  "PluginData": {
+    "GitHubDependencies": {
+      "IdToConfigMap": {
+        "fftivc.utility.modloader": {
+          "Config": {
+            "UserName": "Nenkai",
+            "RepositoryName": "fftivc.utility.modloader",
+            "UseReleaseTag": true,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "fftivc.utility.modloader.ReleaseMetadata.json"
+        },
+        "Reloaded.Memory.SigScan.ReloadedII": {
+          "Config": {
+            "UserName": "Reloaded-Project",
+            "RepositoryName": "Reloaded.Memory.SigScan",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "Reloaded.Memory.SigScan.ReloadedII.ReleaseMetadata.json"
+        },
+        "reloaded.sharedlib.hooks": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "Reloaded.SharedLib.Hooks.ReloadedII",
+            "UseReleaseTag": true,
+            "AssetFileName": "reloaded.sharedlib.hooks.zip"
+          },
+          "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        }
+      }
+    },
+    "GitHubRelease": {
+      "UserName": "Zodi-ark",
+      "RepositoryName": "The-War-of-the-Lions-Equipment-Replacer",
+      "UseReleaseTag": true,
+      "AssetFileName": "Mod.zip"
+    }
+  },
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "fftivc.utility.modloader"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "fft_enhanced.exe"
+  ],
+  "ProjectUrl": "https://github.com/Zodi-ark"
+}

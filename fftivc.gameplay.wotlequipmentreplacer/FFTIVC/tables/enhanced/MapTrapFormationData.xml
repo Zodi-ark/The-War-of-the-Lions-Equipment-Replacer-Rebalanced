@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+This table file is used to overwrite the game's hardcoded map items table.
+
+You can use this file as a base to edit Map Items data in your mod.
+Simply copy this file to your mod's folder under FFTIVC/tables/<enhanced/classic/combined>/MapTrapData.xml.
+
+IMPORTANT: You are free to remove everything and **SHOULD ONLY LEAVE ELEMENTS THAT YOU HAVE EDITED** to avoid conflicts between mods.
+Only properties that are actually included in this file will be tracked as edited. Properties not edited will inherit their
+value from the original table or, from other mods making changes depending on mod order.
+
+IMPORTANT 2: The Id property must NOT be removed for nodes that you're leaving here!
+
+IMPORTANT 3: Id cannot be more than 127 (hardcoded table size is 128).
+
+For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader/blob/master/fftivc.utility.modloader.Interfaces/Tables/Structures/MAP_ITEM_DATA.cs
+-->
+
+<MapTrapFormationTable>
+  <Version>1</Version>
+  <Entries>
+    <MapTrapFormation>
+      <Id>27</Id> <!-- Gollund / 炭鉱都市ゴルランド / Cité minière de Gollund / Bergbaustadt Gollund -->
+      <X1>0</X1>
+      <Y1>9</Y1>
+      <TrapFlags1>DisableTrap</TrapFlags1>
+      <RareItemId1>63</RareItemId1>
+      <CommonItemId1>253</CommonItemId1>
+      <X2>4</X2>
+      <Y2>1</Y2>
+      <TrapFlags2>DisableTrap</TrapFlags2>
+      <RareItemId2>245</RareItemId2>
+      <CommonItemId2>251</CommonItemId2>
+      <X3>4</X3>
+      <Y3>6</Y3>
+      <TrapFlags3>DisableTrap</TrapFlags3>
+      <RareItemId3>100</RareItemId3>
+      <CommonItemId3>240</CommonItemId3>
+      <X4>7</X4>
+      <Y4>2</Y4>
+      <TrapFlags4>DisableTrap</TrapFlags4>
+      <RareItemId4>150</RareItemId4>
+      <CommonItemId4>241</CommonItemId4>
+	</MapTrapFormation>
+	<MapTrapFormation>
+	  <Id>12</Id> <!--  Lionel Castle Gate / ライオネル城 城門前 / Portes du château de Lionel / Am Tor von Schloss Lionel  -->
+	  <X1>1</X1>
+	  <Y1>7</Y1>
+	  <TrapFlags1>DisableTrap</TrapFlags1>
+	  <RareItemId1>178</RareItemId1>
+	  <CommonItemId1>240</CommonItemId1>
+	  <X2>2</X2>
+	  <Y2>1</Y2>
+	  <TrapFlags2>DisableTrap</TrapFlags2>
+	  <RareItemId2>192</RareItemId2>
+	  <CommonItemId2>241</CommonItemId2>
+	  <X3>2</X3>
+	  <Y3>12</Y3>
+	  <TrapFlags3>DisableTrap</TrapFlags3>
+	  <RareItemId3>202</RareItemId3>
+	  <CommonItemId3>243</CommonItemId3>
+	  <X4>3</X4>
+	  <Y4>7</Y4>
+	  <TrapFlags4>DisableTrap</TrapFlags4>
+	  <RareItemId4>245</RareItemId4>
+	  <CommonItemId4>248</CommonItemId4>
+	</MapTrapFormation>
+	<MapTrapFormation>
+	  <Id>31</Id> <!--  Dorter / 貿易都市ドーター / Cité marchande de Dorter / Handelsstadt Dorter  -->
+	  <X1>0</X1>
+	  <Y1>1</Y1>
+	  <TrapFlags1>DisableTrap</TrapFlags1>
+	  <RareItemId1>85</RareItemId1>
+	  <CommonItemId1>240</CommonItemId1>
+	  <X2>2</X2>
+	  <Y2>6</Y2>
+	  <TrapFlags2>DisableTrap</TrapFlags2>
+	  <RareItemId2>122</RareItemId2>
+	  <CommonItemId2>241</CommonItemId2>
+	  <X3>8</X3>
+	  <Y3>4</Y3>
+	  <TrapFlags3>DisableTrap</TrapFlags3>
+	  <RareItemId3>243</RareItemId3>
+	  <CommonItemId3>245</CommonItemId3>
+	  <X4>8</X4>
+	  <Y4>10</Y4>
+	  <TrapFlags4>DisableTrap</TrapFlags4>
+	  <RareItemId4>147</RareItemId4>
+	  <CommonItemId4>248</CommonItemId4>
+    </MapTrapFormation>
+    <MapTrapFormation>
+      <Id>32</Id> <!-- Dorter Slums / ドーターのスラム / Bas quartiers de Dorter / Dorter-Slums -->
+      <X1>0</X1>
+      <Y1>11</Y1>
+      <TrapFlags1>DisableTrap</TrapFlags1>
+      <RareItemId1>245</RareItemId1>
+      <CommonItemId1>246</CommonItemId1>
+      <X2>4</X2>
+      <Y2>3</Y2>
+      <TrapFlags2>DisableTrap</TrapFlags2>
+      <RareItemId2>186</RareItemId2>
+      <CommonItemId2>247</CommonItemId2>
+      <X3>6</X3>
+      <Y3>14</Y3>
+      <TrapFlags3>DisableTrap</TrapFlags3>
+      <RareItemId3>2</RareItemId3>
+      <CommonItemId3>248</CommonItemId3>
+      <X4>7</X4>
+      <Y4>1</Y4>
+      <TrapFlags4>DisableTrap</TrapFlags4>
+      <RareItemId4>245</RareItemId4>
+      <CommonItemId4>253</CommonItemId4>
+    </MapTrapFormation>
+    <MapTrapFormation>
+      <Id>34</Id> <!-- The Sand Rat's Sietch / 砂鼠の穴ぐら / Repaire des rats des sables / Wüstenloch der Sandratten -->
+      <X1>5</X1>
+      <Y1>4</Y1>
+      <TrapFlags1>DisableTrap</TrapFlags1>
+      <RareItemId1>145</RareItemId1>
+      <CommonItemId1>240</CommonItemId1>
+      <X2>6</X2>
+      <Y2>2</Y2>
+      <TrapFlags2>DisableTrap</TrapFlags2>
+      <RareItemId2>158</RareItemId2>
+      <CommonItemId2>241</CommonItemId2>
+      <X3>10</X3>
+      <Y3>0</Y3>
+      <TrapFlags3>DisableTrap</TrapFlags3>
+      <RareItemId3>173</RareItemId3>
+      <CommonItemId3>246</CommonItemId3>
+      <X4>10</X4>
+      <Y4>9</Y4>
+      <TrapFlags4>DisableTrap</TrapFlags4>
+      <RareItemId4>245</RareItemId4>
+      <CommonItemId4>247</CommonItemId4>
+    </MapTrapFormation>
+    <MapTrapFormation>
+      <Id>74</Id> <!-- The Siedge Weald / スウィージの森 / Futaie de Suigy / Siedge-Wald -->
+      <X1>0</X1>
+      <Y1>1</Y1>
+      <TrapFlags1>DisableTrap</TrapFlags1>
+      <RareItemId1>77</RareItemId1>
+      <CommonItemId1>248</CommonItemId1>
+      <X2>1</X2>
+      <Y2>9</Y2>
+      <TrapFlags2>DisableTrap</TrapFlags2>
+      <RareItemId2>128</RareItemId2>
+      <CommonItemId2>253</CommonItemId2>
+      <X3>5</X3>
+      <Y3>11</Y3>
+      <TrapFlags3>DisableTrap</TrapFlags3>
+      <RareItemId3>245</RareItemId3>
+      <CommonItemId3>240</CommonItemId3>
+      <X4>6</X4>
+      <Y4>6</Y4>
+      <TrapFlags4>None</TrapFlags4>
+      <RareItemId4>157</RareItemId4>
+      <CommonItemId4>241</CommonItemId4>
+    </MapTrapFormation>
+    <MapTrapFormation>
+      <Id>76</Id> <!-- Zeklaus Desert / ゼクラス砂漠 / Désert de Zeklaus / Zeklaus-Wüste -->
+      <X1>0</X1>
+      <Y1>6</Y1>
+      <TrapFlags1>Degenerator</TrapFlags1>
+      <RareItemId1>208</RareItemId1>
+      <CommonItemId1>248</CommonItemId1>
+      <X2>2</X2>
+      <Y2>10</Y2>
+      <TrapFlags2>SteelNeedle</TrapFlags2>
+      <RareItemId2>245</RareItemId2>
+      <CommonItemId2>253</CommonItemId2>
+      <X3>6</X3>
+      <Y3>2</Y3>
+      <TrapFlags3>SleepingGas</TrapFlags3>
+      <RareItemId3>21</RareItemId3>
+      <CommonItemId3>240</CommonItemId3>
+      <X4>6</X4>
+      <Y4>9</Y4>
+      <TrapFlags4>Degenerator, DisableTrap</TrapFlags4>
+      <RareItemId4>52</RareItemId4>
+      <CommonItemId4>241</CommonItemId4>
+    </MapTrapFormation>
+    <MapTrapFormation>
+      <Id>85</Id> <!-- Mandalia Plain / マンダリア平原 / Plaine de Mandalia / Mandalia-Ebene -->
+      <X1>0</X1>
+      <Y1>0</Y1>
+      <TrapFlags1>DisableTrap</TrapFlags1>
+      <RareItemId1>1</RareItemId1>
+      <CommonItemId1>240</CommonItemId1>
+      <X2>4</X2>
+      <Y2>4</Y2>
+      <TrapFlags2>DisableTrap</TrapFlags2>
+      <RareItemId2>19</RareItemId2>
+      <CommonItemId2>241</CommonItemId2>
+      <X3>4</X3>
+      <Y3>12</Y3>
+      <TrapFlags3>DisableTrap</TrapFlags3>
+      <RareItemId3>51</RareItemId3>
+      <CommonItemId3>246</CommonItemId3>
+      <X4>8</X4>
+      <Y4>6</Y4>
+      <TrapFlags4>DisableTrap</TrapFlags4>
+      <RareItemId4>245</RareItemId4>
+      <CommonItemId4>247</CommonItemId4>
+    </MapTrapFormation>
+    <MapTrapFormation>
+      <Id>103</Id> <!-- Windflat Mill / 風車小屋 / Moulin de Fovoham / Bei der Mühle -->
+      <X1>0</X1>
+      <Y1>9</Y1>
+      <TrapFlags1>DisableTrap</TrapFlags1>
+      <RareItemId1>188</RareItemId1>
+      <CommonItemId1>248</CommonItemId1>
+      <X2>3</X2>
+      <Y2>4</Y2>
+      <TrapFlags2>DisableTrap</TrapFlags2>
+      <RareItemId2>200</RareItemId2>
+      <CommonItemId2>253</CommonItemId2>
+      <X3>5</X3>
+      <Y3>8</Y3>
+      <TrapFlags3>DisableTrap</TrapFlags3>
+      <RareItemId3>245</RareItemId3>
+      <CommonItemId3>240</CommonItemId3>
+      <X4>6</X4>
+      <Y4>0</Y4>
+      <TrapFlags4>DisableTrap</TrapFlags4>
+      <RareItemId4>4</RareItemId4>
+      <CommonItemId4>241</CommonItemId4>
+	</MapTrapFormation>
+	<MapTrapFormation>
+		<Id>113</Id>
+		<!--  HORROR / HORROR / L'horreur / GRAUEN  -->
+		<X1>1</X1>
+		<Y1>3</Y1>
+		<TrapFlags1>SteelNeedle</TrapFlags1>
+		<RareItemId1>3</RareItemId1>
+		<CommonItemId1>253</CommonItemId1>
+		<X2>2</X2>
+		<Y2>0</Y2>
+		<TrapFlags2>SleepingGas</TrapFlags2>
+		<RareItemId2>185</RareItemId2>
+		<CommonItemId2>253</CommonItemId2>
+		<X3>8</X3>
+		<Y3>4</Y3>
+		<TrapFlags3>Deathtrap</TrapFlags3>
+		<RareItemId3>156</RareItemId3>
+		<CommonItemId3>253</CommonItemId3>
+		<X4>8</X4>
+		<Y4>5</Y4>
+		<TrapFlags4>Deathtrap</TrapFlags4>
+		<RareItemId4>142</RareItemId4>
+		<CommonItemId4>253</CommonItemId4>
+	</MapTrapFormation>
+	<MapTrapFormation>
+		<Id>114</Id>
+		<!--  END / END / La fin / ENDE  -->
+		<X1>5</X1>
+		<Y1>10</Y1>
+		<TrapFlags1>DisableTrap</TrapFlags1>
+		<RareItemId1>229</RareItemId1>
+		<CommonItemId1>253</CommonItemId1>
+		<X2>5</X2>
+		<Y2>12</Y2>
+		<TrapFlags2>DisableTrap</TrapFlags2>
+		<RareItemId2>47</RareItemId2>
+		<CommonItemId2>253</CommonItemId2>
+		<X3>7</X3>
+		<Y3>10</Y3>
+		<TrapFlags3>DisableTrap</TrapFlags3>
+		<RareItemId3>37</RareItemId3>
+		<CommonItemId3>253</CommonItemId3>
+		<X4>7</X4>
+		<Y4>12</Y4>
+		<TrapFlags4>DisableTrap</TrapFlags4>
+		<RareItemId4>211</RareItemId4>
+		<CommonItemId4>253</CommonItemId4>
+	</MapTrapFormation>
+  </Entries>
+</MapTrapFormationTable>

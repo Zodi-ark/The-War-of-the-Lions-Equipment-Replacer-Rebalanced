@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+This table file is used to overwrite the game's hardcoded item table.
+
+Refer to: https://ffhacktics.com/wiki/Item_Data
+This table links to nex table 'Item'. Some properties edited here may be overriden by the nex table.
+
+You can use this file as a base to edit Item data in your mod.
+Simply copy this file to your mod's folder under FFTIVC/tables/<enhanced/classic/combined>/ItemData.xml.
+
+IMPORTANT: You are free to remove everything and **SHOULD ONLY LEAVE ELEMENTS THAT YOU HAVE EDITED** to avoid conflicts between mods.
+Only properties that are actually included in this file will be tracked as edited. Properties not edited will inherit their
+value from the original table or, from other mods making changes depending on mod order.
+
+IMPORTANT 2: The Id property must NOT be removed for nodes that you're leaving here!
+
+IMPORTANT 3: Id cannot be more than 260 (hardcoded table size is 261 across two tables - 256 + 5 (extended)).
+
+For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader/blob/master/fftivc.utility.modloader.Interfaces/Tables/Structures/ITEM_COMMON_DATA.cs
+-->
+
+<ItemTable>
+  <Version>1</Version>
+  <Entries>
+  
+  	<!-- Item Range 0: Weapons -->
+  <Item>
+	  <Id>3</Id> <!--  Orochi (Blind Knife) -->
+	  <Palette>17</Palette>
+	  <SpriteID>7</SpriteID>
+	  <RequiredLevel>0</RequiredLevel>
+	  <TypeFlags>Rare, Weapon</TypeFlags>
+	  <AdditionalDataId>3</AdditionalDataId> <!-- ItemWeaponData id -->
+	  <ItemCategory>NinjaBlade</ItemCategory>
+	  <Unused_0x06>0</Unused_0x06>
+	  <EquipBonusId>0</EquipBonusId>
+	  <Price>63000</Price>
+	  <ShopAvailability>Unknown20</ShopAvailability>
+	  <Unused_0x0B>0</Unused_0x0B>
+  </Item>
+   <Item>
+      <Id>20</Id> <!-- Chaosbringer (Longsword) -->
+      <Palette>12</Palette>
+      <SpriteID>14</SpriteID>
+      <RequiredLevel>50</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>20</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>KnightSword</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>20000</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+  </Item>
+   <Item>
+	  <Id>31</Id>b <!--  Ras Algethi (Nagnarok)  -->
+	  <Palette>8</Palette>
+	  <SpriteID>44</SpriteID>
+	  <RequiredLevel>55</RequiredLevel>
+	  <TypeFlags>Weapon</TypeFlags>
+	  <AdditionalDataId>31</AdditionalDataId> <!--  ItemWeaponData id  -->
+	  <ItemCategory>Gun</ItemCategory>
+	  <Unused_0x06>0</Unused_0x06>
+	  <EquipBonusId>0</EquipBonusId>
+	  <Price>28000</Price>
+	  <ShopAvailability>Unknown20</ShopAvailability>
+	  <Unused_0x0B>0</Unused_0x0B>
+  </Item>
+   <Item>
+      <Id>59</Id> <!-- Balmung (Oak Staff) -->
+      <Palette>11</Palette>
+      <SpriteID>10</SpriteID>
+      <RequiredLevel>0</RequiredLevel>
+      <TypeFlags>Rare, Weapon</TypeFlags>
+      <AdditionalDataId>59</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>KnightSword</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>50000</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+  </Item>
+   <Item>
+	  <Id>67</Id> <!-- Crown Sceptre (Iron Flail) -->
+	  <Palette>19</Palette>
+	  <SpriteID>38</SpriteID>
+	  <RequiredLevel>0</RequiredLevel>
+	  <TypeFlags>Rare, Weapon</TypeFlags>
+	  <AdditionalDataId>67</AdditionalDataId> <!-- ItemWeaponData id -->
+	  <ItemCategory>Rod</ItemCategory>
+	  <Unused_0x06>0</Unused_0x06>
+	  <EquipBonusId>84</EquipBonusId>
+	  <Price>65000</Price>
+	  <ShopAvailability>Unknown20</ShopAvailability>
+	  <Unused_0x0B>0</Unused_0x0B>
+  </Item>
+	  
+  <!--  Item Range: Shields  -->
+   <Item>
+	  <Id>131</Id> <!-- Reverie Shield (Round Shield) -->
+	  <Palette>20</Palette>
+	  <SpriteID>72</SpriteID>
+	  <RequiredLevel>0</RequiredLevel>
+	  <TypeFlags>Rare, Shield</TypeFlags>
+	  <AdditionalDataId>3</AdditionalDataId> <!--  ItemShieldData id  -->
+	  <ItemCategory>Shield</ItemCategory>
+	  <Unused_0x06>0</Unused_0x06>
+	  <EquipBonusId>75</EquipBonusId>
+	  <Price>40000</Price>
+	  <ShopAvailability>Unknown20</ShopAvailability>
+	  <Unused_0x0B>0</Unused_0x0B>
+  </Item>
+	  
+  <!--  Item Range: Armors  -->
+   <Item>
+	  <Id>144</Id> <!--  Brass Coronet (Leather Helm)  -->
+	  <Palette>12</Palette>
+	  <SpriteID>112</SpriteID>
+	  <RequiredLevel>0</RequiredLevel>
+	  <TypeFlags>Rare, Headgear</TypeFlags>
+	  <AdditionalDataId>0</AdditionalDataId> <!--  ItemArmorData id  -->
+	  <ItemCategory>Hat</ItemCategory>
+	  <Unused_0x06>0</Unused_0x06>
+	  <EquipBonusId>76</EquipBonusId>
+	  <Price>50000</Price>
+	  <ShopAvailability>Unknown20</ShopAvailability>
+	  <Unused_0x0B>0</Unused_0x0B>
+  </Item>
+   <Item>
+	  <Id>172</Id> <!--  Grand Armor (Leather Armor)  -->
+	  <Palette>12</Palette>
+	  <SpriteID>112</SpriteID>
+	  <RequiredLevel>0</RequiredLevel>
+	  <TypeFlags>Rare, Armor</TypeFlags>
+	  <AdditionalDataId>28</AdditionalDataId> <!--  ItemArmorData id  -->
+	  <ItemCategory>Armor</ItemCategory>
+	  <Unused_0x06>0</Unused_0x06>
+	  <EquipBonusId>65</EquipBonusId>
+	  <Price>65000</Price>
+	  <ShopAvailability>Unknown20</ShopAvailability>
+	  <Unused_0x0B>0</Unused_0x0B>
+  </Item>
+   <Item>
+	  <Id>187</Id> <!--  Mirage Vest (Leather Clothing)  -->
+	  <Palette>0</Palette>
+	  <SpriteID>124</SpriteID>
+	  <RequiredLevel>75</RequiredLevel>
+	  <TypeFlags>Armor</TypeFlags>
+	  <AdditionalDataId>43</AdditionalDataId> <!--  ItemArmorData id  -->
+	  <ItemCategory>Clothing</ItemCategory>
+	  <Unused_0x06>0</Unused_0x06>
+	  <EquipBonusId>77</EquipBonusId>
+	  <Price>20000</Price>
+	  <ShopAvailability>Unknown20</ShopAvailability>
+	  <Unused_0x0B>0</Unused_0x0B>
+  </Item>
+	  
+  <!--  Item Range: Accessories  -->
+   <Item>
+	  <Id>211</Id> <!--  Tynar Rouge (Rubber Boots)  -->
+	  <Palette>18</Palette>
+	  <SpriteID>158</SpriteID>
+	  <RequiredLevel>0</RequiredLevel>
+	  <TypeFlags>Rare, Accessory</TypeFlags>
+	  <AdditionalDataId>3</AdditionalDataId> <!--  ItemAccesoryData Id  -->
+	  <ItemCategory>Perfume</ItemCategory>
+	  <Unused_0x06>0</Unused_0x06>
+	  <EquipBonusId>74</EquipBonusId>
+	  <Price>65000</Price>
+	  <ShopAvailability>Unknown20</ShopAvailability>
+	  <Unused_0x0B>0</Unused_0x0B>
+ </Item>
+  <Item>
+	 <Id>229</Id> <!--  Onion Gloves (Shoulder Cape)  -->
+	 <Palette>15</Palette>
+	 <SpriteID>142</SpriteID>
+	 <RequiredLevel>0</RequiredLevel>
+	 <TypeFlags>Rare, Accessory</TypeFlags>
+	 <AdditionalDataId>21</AdditionalDataId> <!--  ItemAccesoryData Id  -->
+	 <ItemCategory>Armguard</ItemCategory>
+	 <Unused_0x06>0</Unused_0x06>
+	 <EquipBonusId>71</EquipBonusId>
+	 <Price>60000</Price>
+	 <ShopAvailability>Unknown20</ShopAvailability>
+	 <Unused_0x0B>0</Unused_0x0B>
+	  </Item>
+  </Entries>
+</ItemTable>
