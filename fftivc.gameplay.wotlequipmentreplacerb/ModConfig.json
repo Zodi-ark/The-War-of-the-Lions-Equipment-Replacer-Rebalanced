@@ -1,5 +1,5 @@
 {
-  "ModId": "fftivc.gameplay.wotlequipmentreplacer",
+  "ModId": "fftivc.gameplay.wotlequipmentreplacerb",
   "ModName": "The War of the Lions Equipment Replacer",
   "ModAuthor": "Zodiark",
   "ModVersion": "0.9.0",
@@ -14,10 +14,10 @@
   "CanUnload": null,
   "HasExports": null,
   "IsLibrary": false,
-  "ReleaseMetadataFileName": "fftivc.gameplay.wotlequipmentreplacer.ReleaseMetadata.json",
+  "ReleaseMetadataFileName": "fftivc.gameplay.wotlequipmentreplacerb.ReleaseMetadata.json",
   "IgnoreRegexes": [
     ".*\\.json",
-    "fftivc\\.gameplay\\.wotlequipmentreplacer\\.nuspec"
+    "fftivc\\.gameplay\\.wotlequipmentreplacerb\\.nuspec"
   ],
   "IncludeRegexes": [
     "\\.deps\\.json",
@@ -59,7 +59,7 @@
     },
     "GitHubRelease": {
       "UserName": "Zodi-ark",
-      "RepositoryName": "The-War-of-the-Lions-Equipment-Replacer",
+      "RepositoryName": "The-War-of-the-Lions-Equipment-Replacer-Rebalanced",
       "UseReleaseTag": true,
       "AssetFileName": "Mod.zip"
     }
