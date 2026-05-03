@@ -1,8 +1,8 @@
 {
   "ModId": "fftivc.gameplay.wotlequipmentreplacerb",
-  "ModName": "The War of the Lions Equipment Replacer",
+  "ModName": "The War of the Lions Equipment Replacer \u0027Rebalanced\u0027",
   "ModAuthor": "Zodiark",
-  "ModVersion": "0.9.0",
+  "ModVersion": "0.9.1",
   "ModDescription": "Replaces rarely utilized equipment with the coveted \u0022Tynar Rouge,\u0022 \u0022Ras Algethi,\u0022 \u0022Balmung,\u0022 \u0022Orochi,\u0022 \u0022Crown Sceptre,\u0022 \u0022Chaosbringer,\u0022 \u0022Reverie Shield,\u0022 \u0022Brass Coronet,\u0022 \u0022Grand Armor,\u0022 \u0022Mirage Vest,\u0022 and \u0022Onion Gloves\u0022 featured exclusively in \u0022The War of the Lions.\u0022",
   "ModDll": "",
   "ModIcon": "preview.png",
