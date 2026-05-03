@@ -32,7 +32,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
 	  <AttackFlags>Throwable, TwoHands, TwoSwords, Striking</AttackFlags>
 	  <Formula>6</Formula>
 	  <Unused_0x03>255</Unused_0x03>
-	  <Power>20</Power>
+	  <Power>13</Power>
 	  <Evasion>5</Evasion>
 	  <Elements>Dark</Elements>
 	  <OptionsAbilityId>0</OptionsAbilityId>
@@ -65,7 +65,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <AttackFlags>TwoHands, Striking</AttackFlags>
       <Formula>1</Formula>
       <Unused_0x03>255</Unused_0x03>
-      <Power>32</Power>
+      <Power>22</Power>
       <Evasion>0</Evasion>
       <Elements>Dark</Elements>
       <OptionsAbilityId>44</OptionsAbilityId>
@@ -77,7 +77,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
 	  <Formula>1</Formula>
 	  <Unused_0x03>255</Unused_0x03>
 	  <Power>5</Power>
-	  <Evasion>20</Evasion>
+	  <Evasion>0</Evasion>
 	  <Elements>None</Elements>
 	  <OptionsAbilityId>0</OptionsAbilityId>
 	</ItemWeapon>

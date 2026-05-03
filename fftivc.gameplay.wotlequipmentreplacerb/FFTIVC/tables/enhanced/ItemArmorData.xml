@@ -26,17 +26,17 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
   <Entries>
     <ItemArmor>
       <Id>0</Id> <!-- Brass Coronet (Leather Helm) -->
-      <HPBonus>60</HPBonus>
-      <MPBonus>100</MPBonus>
+      <HPBonus>20</HPBonus>
+      <MPBonus>20</MPBonus>
     </ItemArmor>
 	<ItemArmor>
 	  <Id>28</Id> <!-- Grand Armor (Leather Armor) -->
-	  <HPBonus>170</HPBonus>
+	  <HPBonus>120</HPBonus>
 	  <MPBonus>0</MPBonus>
 	</ItemArmor>
 	<ItemArmor>
 	  <Id>43</Id> <!-- Mirage Vest (Leather Clothing) -->
-	  <HPBonus>120</HPBonus>
+	  <HPBonus>100</HPBonus>
 	  <MPBonus>0</MPBonus>
 	</ItemArmor>
   </Entries>

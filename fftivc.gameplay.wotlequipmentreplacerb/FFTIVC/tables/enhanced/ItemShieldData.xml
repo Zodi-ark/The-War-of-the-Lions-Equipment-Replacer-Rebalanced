@@ -26,7 +26,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
   <Entries>
     <ItemShield>
       <Id>3</Id> <!-- Reverie Shield (Round Shield) -->
-      <PhysicalEvasion>50</PhysicalEvasion>
+      <PhysicalEvasion>40</PhysicalEvasion>
       <MagicalEvasion>25</MagicalEvasion>
     </ItemShield>
   </Entries>

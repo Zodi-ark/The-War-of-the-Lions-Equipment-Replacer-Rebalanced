@@ -65,7 +65,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
 	  <MoveBonus>0</MoveBonus>
 	  <JumpBonus>0</JumpBonus>
 	  <InnateStatus>None</InnateStatus>
-	  <ImmuneStatus>Silence</ImmuneStatus>
+	  <ImmuneStatus>None</ImmuneStatus>
 	  <StartingStatus>None</StartingStatus>
 	  <AbsorbElements>None</AbsorbElements>
 	  <NullifyElements>None</NullifyElements>

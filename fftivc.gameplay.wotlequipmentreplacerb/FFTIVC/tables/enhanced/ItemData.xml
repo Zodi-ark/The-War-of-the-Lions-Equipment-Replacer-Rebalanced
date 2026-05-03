@@ -29,8 +29,8 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
 	  <Id>3</Id> <!--  Orochi (Blind Knife) -->
 	  <Palette>17</Palette>
 	  <SpriteID>7</SpriteID>
-	  <RequiredLevel>0</RequiredLevel>
-	  <TypeFlags>Rare, Weapon</TypeFlags>
+	  <RequiredLevel>45</RequiredLevel>
+	  <TypeFlags>Weapon</TypeFlags>
 	  <AdditionalDataId>3</AdditionalDataId> <!-- ItemWeaponData id -->
 	  <ItemCategory>NinjaBlade</ItemCategory>
 	  <Unused_0x06>0</Unused_0x06>
@@ -71,8 +71,8 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <Id>59</Id> <!-- Balmung (Oak Staff) -->
       <Palette>11</Palette>
       <SpriteID>10</SpriteID>
-      <RequiredLevel>0</RequiredLevel>
-      <TypeFlags>Rare, Weapon</TypeFlags>
+      <RequiredLevel>76</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
       <AdditionalDataId>59</AdditionalDataId> <!-- ItemWeaponData id -->
       <ItemCategory>KnightSword</ItemCategory>
       <Unused_0x06>0</Unused_0x06>
@@ -85,12 +85,12 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
 	  <Id>67</Id> <!-- Crown Sceptre (Iron Flail) -->
 	  <Palette>19</Palette>
 	  <SpriteID>38</SpriteID>
-	  <RequiredLevel>0</RequiredLevel>
-	  <TypeFlags>Rare, Weapon</TypeFlags>
+	  <RequiredLevel>83</RequiredLevel>
+	  <TypeFlags>Weapon</TypeFlags>
 	  <AdditionalDataId>67</AdditionalDataId> <!-- ItemWeaponData id -->
 	  <ItemCategory>Rod</ItemCategory>
 	  <Unused_0x06>0</Unused_0x06>
-	  <EquipBonusId>84</EquipBonusId>
+	  <EquipBonusId>76</EquipBonusId>
 	  <Price>65000</Price>
 	  <ShopAvailability>Unknown20</ShopAvailability>
 	  <Unused_0x0B>0</Unused_0x0B>
@@ -101,8 +101,8 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
 	  <Id>131</Id> <!-- Reverie Shield (Round Shield) -->
 	  <Palette>20</Palette>
 	  <SpriteID>72</SpriteID>
-	  <RequiredLevel>0</RequiredLevel>
-	  <TypeFlags>Rare, Shield</TypeFlags>
+	  <RequiredLevel>55</RequiredLevel>
+	  <TypeFlags>Shield</TypeFlags>
 	  <AdditionalDataId>3</AdditionalDataId> <!--  ItemShieldData id  -->
 	  <ItemCategory>Shield</ItemCategory>
 	  <Unused_0x06>0</Unused_0x06>
@@ -117,8 +117,8 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
 	  <Id>144</Id> <!--  Brass Coronet (Leather Helm)  -->
 	  <Palette>12</Palette>
 	  <SpriteID>112</SpriteID>
-	  <RequiredLevel>0</RequiredLevel>
-	  <TypeFlags>Rare, Headgear</TypeFlags>
+	  <RequiredLevel>73</RequiredLevel>
+	  <TypeFlags>Headgear</TypeFlags>
 	  <AdditionalDataId>0</AdditionalDataId> <!--  ItemArmorData id  -->
 	  <ItemCategory>Hat</ItemCategory>
 	  <Unused_0x06>0</Unused_0x06>
@@ -131,8 +131,8 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
 	  <Id>172</Id> <!--  Grand Armor (Leather Armor)  -->
 	  <Palette>12</Palette>
 	  <SpriteID>112</SpriteID>
-	  <RequiredLevel>0</RequiredLevel>
-	  <TypeFlags>Rare, Armor</TypeFlags>
+	  <RequiredLevel>79</RequiredLevel>
+	  <TypeFlags>Armor</TypeFlags>
 	  <AdditionalDataId>28</AdditionalDataId> <!--  ItemArmorData id  -->
 	  <ItemCategory>Armor</ItemCategory>
 	  <Unused_0x06>0</Unused_0x06>
@@ -145,7 +145,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
 	  <Id>187</Id> <!--  Mirage Vest (Leather Clothing)  -->
 	  <Palette>0</Palette>
 	  <SpriteID>124</SpriteID>
-	  <RequiredLevel>75</RequiredLevel>
+	  <RequiredLevel>48</RequiredLevel>
 	  <TypeFlags>Armor</TypeFlags>
 	  <AdditionalDataId>43</AdditionalDataId> <!--  ItemArmorData id  -->
 	  <ItemCategory>Clothing</ItemCategory>
@@ -161,8 +161,8 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
 	  <Id>211</Id> <!--  Tynar Rouge (Rubber Boots)  -->
 	  <Palette>18</Palette>
 	  <SpriteID>158</SpriteID>
-	  <RequiredLevel>0</RequiredLevel>
-	  <TypeFlags>Rare, Accessory</TypeFlags>
+	  <RequiredLevel>98</RequiredLevel>
+	  <TypeFlags>Accessory</TypeFlags>
 	  <AdditionalDataId>3</AdditionalDataId> <!--  ItemAccesoryData Id  -->
 	  <ItemCategory>Perfume</ItemCategory>
 	  <Unused_0x06>0</Unused_0x06>
@@ -175,8 +175,8 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
 	 <Id>229</Id> <!--  Onion Gloves (Shoulder Cape)  -->
 	 <Palette>15</Palette>
 	 <SpriteID>142</SpriteID>
-	 <RequiredLevel>0</RequiredLevel>
-	 <TypeFlags>Rare, Accessory</TypeFlags>
+	 <RequiredLevel>83</RequiredLevel>
+	 <TypeFlags>Accessory</TypeFlags>
 	 <AdditionalDataId>21</AdditionalDataId> <!--  ItemAccesoryData Id  -->
 	 <ItemCategory>Armguard</ItemCategory>
 	 <Unused_0x06>0</Unused_0x06>
